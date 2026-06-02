@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #9c173b;
+  margin: 0;
+  font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: repeating-linear-gradient(
+    0deg,
+    #17001d,
+    #17001d 10px,
+    #270022 10px,
+    #270022 20px
+  );
+  overflow: hidden;
+}
+body::before {
+  display: block;
+  text-align: center;
+}
+button {
+  display: block;
+  background-color:#1e579c;
+  border: 0px solid hsl(210deg 15% 30%);
+  font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.aldrich-regular {
+  font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+  margin-bottom: 0px;
+  text-align: center;
+}
+#textToChange{
+  overflow-wrap: anywhere;
+  text-align: center;
+}
+.titleChange{
+  font-size: 100px;
+}
+.escape{
+  color:#0ce6f2;
+  position: absolute;
+}
