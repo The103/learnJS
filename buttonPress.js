@@ -35,5 +35,8 @@ function changeNumber()
     }
     mainButton.innerText = scrambledWords;
     
-    if(numberOfIterations < 30) numberOfIterations++;
+    if(numberOfIterations < 30)
+    {
+        numberOfIterations++;
+    }
 }
