@@ -34,6 +34,7 @@ function changeNumber()
         scrambledWords += String.fromCharCode(Math.floor(Math.random() * 25) + 65);
     }
     mainButton.innerText = scrambledWords;
+    mainButton.style.fontSize = 30 + 'px';
     
     if(numberOfIterations < 30)
     {
