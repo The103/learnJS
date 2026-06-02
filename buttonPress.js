@@ -28,10 +28,11 @@ function createEscape(){
 }
 function changeNumber()
 {
-    mainButton.innerHTML = "";
+    let scrambledWords = "";
     for(let i = 0; i < 10 + numberOfIterations; i++)
     {
-        mainButton.innerHTML += String.fromCharCode(Math.floor(Math.random() * 25) + 65);
+        scrambledWords += String.fromCharCode(Math.floor(Math.random() * 25) + 65);
     }
+    mainButton.innerText = scrambledWords;
     numberOfIterations++;
 }
