@@ -21,7 +21,7 @@ function createEscape(){
     escapeText.style.right = Math.floor(Math.random() * 100).toString() + '%';
     escapeText.style.fontSize = Math.floor((Math.random() * 40) + 20).toString() + 'px';
     escapeText.addEventListener("mouseenter", (e) => {
-        e.target.innerText = "13";
+        e.target.innerText = "16";
         e.removeEventListener("mouseenter");
     })
     document.body.appendChild(escapeText);
